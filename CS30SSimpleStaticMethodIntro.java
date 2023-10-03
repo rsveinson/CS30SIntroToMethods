@@ -62,6 +62,8 @@ public class CS30SSimpleStaticMethodIntro {
         prompt = "enter an int";
         n = getIntFromKeyboard(scanner, prompt);      // calls the method getIntFromKeyboard
         //System.out.println(n);
+        int n1 = getIntFromKeyboard(scanner, prompt);
+        //System.out.println(n1);
         
         cube = cubeInt(n);      // call the cubeInt method
         //System.out.println("cube " + cube);
